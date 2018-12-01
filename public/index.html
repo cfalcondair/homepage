@@ -1,305 +1,842 @@
 <!DOCTYPE html>
 <html lang="en">
+	<head>
 
-  <head>
+		<meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+		<meta http-equiv="content-script-type" content="text/javascript" />
+		<meta http-equiv="content-style-type" content="text/css" />
+		<meta http-equiv="content-language" content="nl" />
 
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="">
-    <meta name="author" content="">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <!-- Bootstrap core CSS -->
-    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+		<meta name="author" content="Samuel Crouch" />
+		<meta name="description" content="I'm Sam Crouch, I design data systems and implement machine learning to maximise value." />
+		<meta name="keywords" content="Sam Crouch, Machine Learning, Data Engineer, Data Scientist, Data, Startup, CV, Resume, python, ruby, scala, spark, elasticsearch, Algorithms, postgres, psql, golang, go" />
+		<meta name="robots" content="index, follow" />
+		<meta name="revisit-after" content="14 days" />
 
-    <!-- Custom fonts for this template -->
-    <link href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:100,200,300,400,500,600,700,800,900" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i" rel="stylesheet">
-    <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet">
-    <link href="vendor/devicons/css/devicons.min.css" rel="stylesheet">
-    <link href="vendor/simple-line-icons/css/simple-line-icons.css" rel="stylesheet">
+		<title>Sam Crouch - Machine Learning Engineer</title>
 
-    <!-- Custom styles for this template -->
-    <link href="css/resume.min.css" rel="stylesheet">
+		<!-- Bootstrap core CSS -->
+		<link href="http://fonts.googleapis.com/css?family=Open+Sans:300,600,700" rel="stylesheet" type="text/css" />
+		<link href="/css/style.css" rel="stylesheet" />
+		<link href="/css/bootstrap.min.css" rel="stylesheet" />
 
-  </head>
+		<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
+		<link rel="icon" href="/favicon.ico" type="image/x-icon" />
 
-  <body id="page-top">
+		<!-- Begin Inspectlet Embed Code -->
+		<script type="text/javascript" id="inspectletjs">
+			window.__insp = window.__insp || [];
+			__insp.push(['wid', 92785244]);
+			(function() {
+				function __ldinsp(){var insp = document.createElement('script'); insp.type = 'text/javascript'; insp.async = true; insp.id = "inspsync"; insp.src = ('https:' == document.location.protocol ? 'https' : 'http') + '://www.inspectlet.com/inspectlet.js'; var x = document.getElementsByTagName('script')[0]; x.parentNode.insertBefore(insp, x); }
+				if (window.attachEvent){
+					window.attachEvent('onload', __ldinsp);
+				}else{
+					window.addEventListener('load', __ldinsp, false);
+				}
+			})();
+		</script>
+		<!-- End Inspectlet Embed Code -->
+	</head>
+	<body data-spy="scroll" data-target="#navbar-example">
 
-    <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
-      <a class="navbar-brand js-scroll-trigger" href="#page-top">
-        <span class="d-block d-lg-none">Start Bootstrap</span>
-        <span class="d-none d-lg-block">
-          <img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="images/profile.jpg" alt="">
-        </span>
-      </a>
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav">
-          <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#about">About</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#experience">Experience</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#education">Education</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#skills">Skills</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#interests">Interests</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#awards">Awards</a>
-          </li>
-        </ul>
-      </div>
-    </nav>
+		<div id="top" class="jumbotron" data-src="/images/metro_animation.gif" data-position="center right">
+			<div class="container">
+				<h1>Samuel Crouch</h1>
+				<p class="lead">Personal Site</p>
+			</div>
 
-    <div class="container-fluid p-0">
+			<div class="overlay"></div>
 
-      <section class="resume-section p-3 p-lg-5 d-flex d-column" id="about">
-        <div class="my-auto">
-          <h1 class="mb-0">Samuel
-            <span class="text-primary">Crouch</span>
-          </h1>
-          <div class="subheading mb-5">JansaStraße · Berlin, Ger 12045 · +49 176-656860979 ·
-            <a href="mailto:name@email.com">cfdair6@email.com</a>
-          </div>
-          <p class="mb-5">I good at the tings.</p>
-          <ul class="list-inline list-social-icons mb-0">
-            <li class="list-inline-item">
-              <a href="#">
-                <span class="fa-stack fa-lg">
-                  <i class="fa fa-circle fa-stack-2x"></i>
-                  <i class="fa fa-facebook fa-stack-1x fa-inverse"></i>
-                </span>
-              </a>
-            </li>
-            <li class="list-inline-item">
-              <a href="#">
-                <span class="fa-stack fa-lg">
-                  <i class="fa fa-circle fa-stack-2x"></i>
-                  <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
-                </span>
-              </a>
-            </li>
-            <li class="list-inline-item">
-              <a href="#">
-                <span class="fa-stack fa-lg">
-                  <i class="fa fa-circle fa-stack-2x"></i>
-                  <i class="fa fa-linkedin fa-stack-1x fa-inverse"></i>
-                </span>
-              </a>
-            </li>
-            <li class="list-inline-item">
-              <a href="#">
-                <span class="fa-stack fa-lg">
-                  <i class="fa fa-circle fa-stack-2x"></i>
-                  <i class="fa fa-github fa-stack-1x fa-inverse"></i>
-                </span>
-              </a>
-            </li>
-          </ul>
-        </div>
-      </section>
+			<a href="#profile" class="scroll-down">
+				<span class="glyphicon glyphicon-chevron-down"></span>
+			</a>
+		</div>
 
-      <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="experience">
-        <div class="my-auto">
-          <h2 class="mb-5">Experience</h2>
+		<nav class="navbar navbar-default" id="navbar-example" role="navigation">
+			<!-- Brand and toggle get grouped for better mobile display -->
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+					<span class="sr-only">Toggle navigation</span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+			</div>
 
-          <div class="resume-item d-flex flex-column flex-md-row mb-5">
-            <div class="resume-content mr-auto">
-              <h3 class="mb-0">Senior Web Developer</h3>
-              <div class="subheading mb-3">Intelitec Solutions</div>
-              <p>Bring to the table win-win survival strategies to ensure proactive domination. At the end of the day, going forward, a new normal that has evolved from generation X is on the runway heading towards a streamlined cloud solution. User generated content in real-time will have multiple touchpoints for offshoring.</p>
-            </div>
-            <div class="resume-date text-md-right">
-              <span class="text-primary">March 2013 - Present</span>
-            </div>
-          </div>
+			<!-- Collect the nav links, forms, and other content for toggling -->
+			<div class="collapse navbar-collapse navbar-ex1-collapse">
+				<ul class="nav navbar-nav">
+					<li class="active"><a href="#profile">Profile</a></li>
+					<li><a href="#experiences">Experiences</a></li>
+					<li><a href="#abilities">Abilities</a></li>
+										<li><a href="#projects">Projects</a></li>
+					<li><a href="#contact">Contact</a></li>
+				</ul>
+			</div><!-- /.navbar-collapse -->
+		</nav>
 
-          <div class="resume-item d-flex flex-column flex-md-row mb-5">
-            <div class="resume-content mr-auto">
-              <h3 class="mb-0">Web Developer</h3>
-              <div class="subheading mb-3">Intelitec Solutions</div>
-              <p>Capitalize on low hanging fruit to identify a ballpark value added activity to beta test. Override the digital divide with additional clickthroughs from DevOps. Nanotechnology immersion along the information highway will close the loop on focusing solely on the bottom line.</p>
-            </div>
-            <div class="resume-date text-md-right">
-              <span class="text-primary">December 2011 - March 2013</span>
-            </div>
-          </div>
+		<div class="background-white">
+			<div id="profile" class="container">
+				<h2>Profile</h2>
+<p class="lead">Machine Learning engineer</p>
 
-          <div class="resume-item d-flex flex-column flex-md-row mb-5">
-            <div class="resume-content mr-auto">
-              <h3 class="mb-0">Junior Web Designer</h3>
-              <div class="subheading mb-3">Shout! Media Productions</div>
-              <p>Podcasting operational change management inside of workflows to establish a framework. Taking seamless key performance indicators offline to maximise the long tail. Keeping your eye on the ball while performing a deep dive on the start-up mentality to derive convergence on cross-platform integration.</p>
-            </div>
-            <div class="resume-date text-md-right">
-              <span class="text-primary">July 2010 - December 2011</span>
-            </div>
-          </div>
+<hr />
 
-          <div class="resume-item d-flex flex-column flex-md-row">
-            <div class="resume-content mr-auto">
-              <h3 class="mb-0">Web Design Intern</h3>
-              <div class="subheading mb-3">Shout! Media Productions</div>
-              <p>Collaboratively administrate empowered markets via plug-and-play networks. Dynamically procrastinate B2C users after installed base benefits. Dramatically visualize customer directed convergence without revolutionary ROI.</p>
-            </div>
-            <div class="resume-date text-md-right">
-              <span class="text-primary">September 2008 - June 2010</span>
-            </div>
-          </div>
+<div class="row">
+	<div class="col-md-4">
+		<h3>About me</h3>
+		<p>
+			I am an allround data engineer. I have worked on greenfield and mature systems, designing and implementing machine learning processes with many different aims. Versitility is one of my strong suits. I'm always striving to learn from others.		</p>
+	</div>
+	<div class="col-md-4 text-center">
+		<img src="/images/profile.jpg" alt="Pascal van Gemert" width="246" height="246" />
+	</div>
+	<div class="col-md-4">
+		<h3>Details</h3>
+		<p>
+			<strong>Name:</strong><br />
+			Sam Crouch<br />
+			<strong>Age:</strong><br />
+			28 years<br />
+			<strong>Location:</strong><br />
+			London, England, UK		</p>
 
-        </div>
+		<a href="https://twitter.com/scrouch6" class="twitter-follow-button" data-show-count="false" data-size="large" data-show-screen-name="false">Follow @scrouch6</a>
+		<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+	</div>
+</div>
 
-      </section>
+<div class="text-center">
+    <p>Want to buy me a coffee? Or a beer even? Thats very kind of you.</p>
+<form action="https://paypal.me/scrouch" method="post" target="_top">
+<input type="hidden" name="cmd" value="_s-xclick">
+<input type="hidden" name="hosted_button_id" value="BLUBUAMP4EQRJ">
+<input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donate_SM.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+<img alt="" border="0" src="https://www.paypalobjects.com/nl_NL/i/scr/pixel.gif" width="1" height="1">
+</form>
+</div>			</div>
+		</div>
 
-      <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="education">
-        <div class="my-auto">
-          <h2 class="mb-5">Education</h2>
+		<div id="experiences" class="container">
+			<h2>Experiences</h2>
+<hr />
 
-          <div class="resume-item d-flex flex-column flex-md-row mb-5">
-            <div class="resume-content mr-auto">
-              <h3 class="mb-0">University of Colorado Boulder</h3>
-              <div class="subheading mb-3">Bachelor of Science</div>
-              <div>Computer Science - Web Development Track</div>
-              <p>GPA: 3.23</p>
-            </div>
-            <div class="resume-date text-md-right">
-              <span class="text-primary">August 2006 - May 2010</span>
-            </div>
-          </div>
+<h3>Educations</h3>
 
-          <div class="resume-item d-flex flex-column flex-md-row">
-            <div class="resume-content mr-auto">
-              <h3 class="mb-0">James Buchanan High School</h3>
-              <div class="subheading mb-3">Technology Magnet Program</div>
-              <p>GPA: 3.56</p>
-            </div>
-            <div class="resume-date text-md-right">
-              <span class="text-primary">August 2002 - May 2006</span>
-            </div>
-          </div>
+<div class="experiences">
+	<div class="experience row">
+		<div class="col-md-4">
+			<h4>Penn University</h4>
+			<p class="experience-period">
+				Mar 2014				-
+				May 2014			</p>
+		</div>
+		<div class="col-md-8">
+			<p>
+				<strong>Course - Gamification (course)</strong>
+				<span class="hidden-phone">
+					Gamification is the application of game elements and digital game design techniques to non-game problems, such as business and social impact challenges. This course thought me about the mechanisms of gamification, why it has such tremendous potential, and how to use it effectively.				</span>
+				<span class="experience-details">
+					<span class="location">
+						<span class="glyphicon glyphicon-map-marker"></span>
+						Online					</span>
+				</span>
+			</p>
+		</div>
+	</div>
 
-        </div>
-      </section>
 
-      <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="skills">
-        <div class="my-auto">
-          <h2 class="mb-5">Skills</h2>
+	<div class="experience row">
+		<div class="col-md-4">
+			<h4>Avans Highschool</h4>
+			<p class="experience-period">
+				Aug 2004				-
+				Jun 2008			</p>
+		</div>
+		<div class="col-md-8">
+			<p>
+				<strong>Bachelor - Computer Science (Specialization: Multimedia)</strong>
+				<span class="hidden-phone">
+					The education was mainly Java-based programming, but I also learned about SQL, PHP, MVC, UML and more. During my time in college, I specialized in multimedia. Here I learned about gaming -the importance of OOP-, web- and user experience and design.				</span>
+				<span class="experience-details">
+					<span class="location">
+						<span class="glyphicon glyphicon-map-marker"></span>
+						's-Hertogenbosch					</span>
+				</span>
+			</p>
+		</div>
+	</div>
+</div>
 
-          <div class="subheading mb-3">Programming Languages &amp; Tools</div>
-          <ul class="list-inline list-icons">
-            <li class="list-inline-item">
-              <i class="devicons devicons-html5"></i>
-            </li>
-            <li class="list-inline-item">
-              <i class="devicons devicons-css3"></i>
-            </li>
-            <li class="list-inline-item">
-              <i class="devicons devicons-javascript"></i>
-            </li>
-            <li class="list-inline-item">
-              <i class="devicons devicons-jquery"></i>
-            </li>
-            <li class="list-inline-item">
-              <i class="devicons devicons-sass"></i>
-            </li>
-            <li class="list-inline-item">
-              <i class="devicons devicons-less"></i>
-            </li>
-            <li class="list-inline-item">
-              <i class="devicons devicons-bootstrap"></i>
-            </li>
-            <li class="list-inline-item">
-              <i class="devicons devicons-wordpress"></i>
-            </li>
-            <li class="list-inline-item">
-              <i class="devicons devicons-grunt"></i>
-            </li>
-            <li class="list-inline-item">
-              <i class="devicons devicons-gulp"></i>
-            </li>
-            <li class="list-inline-item">
-              <i class="devicons devicons-npm"></i>
-            </li>
-          </ul>
 
-          <div class="subheading mb-3">Workflow</div>
-          <ul class="fa-ul mb-0">
-            <li>
-              <i class="fa-li fa fa-check"></i>
-              Mobile-First, Responsive Design</li>
-            <li>
-              <i class="fa-li fa fa-check"></i>
-              Cross Browser Testing &amp; Debugging</li>
-            <li>
-              <i class="fa-li fa fa-check"></i>
-              Cross Functional Teams</li>
-            <li>
-              <i class="fa-li fa fa-check"></i>
-              Agile Development &amp; Scrum</li>
-          </ul>
-        </div>
-      </section>
 
-      <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="interests">
-        <div class="my-auto">
-          <h2 class="mb-5">Interests</h2>
-          <p>Apart from being a web developer, I enjoy most of my time being outdoors. In the winter, I am an avid skiier and novice ice climber. During the warmer months here in Colorado, I enjoy mountain biking, free climbing, and kayaking.</p>
-          <p class="mb-0">When forced indoors, I follow a number of sci-fi and fantasy genre movies and television shows, I am an aspiring chef, and I spend a large amount of my free time exploring the latest technolgy advancements in the front-end web development world.</p>
-        </div>
-      </section>
+<hr />
 
-      <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="awards">
-        <div class="my-auto">
-          <h2 class="mb-5">Awards &amp; Certifications</h2>
-          <ul class="fa-ul mb-0">
-            <li>
-              <i class="fa-li fa fa-trophy text-warning"></i>
-              Google Analytics Certified Developer</li>
-            <li>
-              <i class="fa-li fa fa-trophy text-warning"></i>
-              Mobile Web Specialist - Google Certification</li>
-            <li>
-              <i class="fa-li fa fa-trophy text-warning"></i>
-              1<sup>st</sup>
-              Place - University of Colorado Boulder - Emerging Tech Competition 2009</li>
-            <li>
-              <i class="fa-li fa fa-trophy text-warning"></i>
-              1<sup>st</sup>
-              Place - University of Colorado Boulder - Adobe Creative Jam 2008 (UI Design Category)</li>
-            <li>
-              <i class="fa-li fa fa-trophy text-warning"></i>
-              2<sup>nd</sup>
-              Place - University of Colorado Boulder - Emerging Tech Competition 2008</li>
-            <li>
-            <li>
-              <i class="fa-li fa fa-trophy text-warning"></i>
-              1<sup>st</sup>
-              Place - James Buchanan High School - Hackathon 2006</li>
-            <li>
-              <i class="fa-li fa fa-trophy text-warning"></i>
-              3<sup>rd</sup>
-              Place - James Buchanan High School - Hackathon 2005</li>
-          </ul>
-        </div>
-      </section>
+<h3>Careers</h3>
 
-    </div>
 
-    <!-- Bootstrap core JavaScript -->
-    <script src="vendor/jquery/jquery.min.js"></script>
-    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+<div class="experiences">
 
-    <!-- Plugin JavaScript -->
-    <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
 
-    <!-- Custom scripts for this template -->
-    <script src="js/resume.min.js"></script>
+	<div class="experience row">
+		<div class="col-md-4">
+			<h4>Startselect | Online Prepaid Services</h4>
+			<p class="experience-period">
+				May 2016				-
+				current			</p>
+		</div>
+		<div class="col-md-8">
+			<p>
+				<strong>Fulltime - Senior Web Developer</strong>
+				<span class="hidden-phone">
+					Working as a Senior Devloper on a large european based webshop for digital games and gifrcards. The application is Laravel based and as a team we are working in a fully scrum way. . 				</span>
+				<span class="experience-details">
+					<span class="location">
+						<span class="glyphicon glyphicon-map-marker"></span>
+						Eindhoven					</span>
 
-  </body>
 
+					<span class="seperator">|</span>
+					<span class="link">
+						<span class="glyphicon glyphicon-link"></span>
+						<a href="http://startselect.com" target="_blank">http://startselect.com</a>
+					</span>
+
+
+				</span>
+			</p>
+		</div>
+	</div>
+
+
+	<div class="experience row">
+		<div class="col-md-4">
+			<h4>The Secret Lab</h4>
+			<p class="experience-period">
+				Aug 2015				-
+				Apr 2016			</p>
+		</div>
+		<div class="col-md-8">
+			<p>
+				<strong>Fulltime - Senior Web Developer</strong>
+				<span class="hidden-phone">
+					As a senior at The Secret Lab I work on projects like Kaartjes.nl, Clay.com and more. Using frameworks and technologies such as Laravel, Wordpress, Drupal 8 and ElasticSearch. I also introduced working with Git Flow and supporting my colleagues to write nice readable and reusable code. 				</span>
+				<span class="experience-details">
+					<span class="location">
+						<span class="glyphicon glyphicon-map-marker"></span>
+						Amsterdam					</span>
+
+
+					<span class="seperator">|</span>
+					<span class="link">
+						<span class="glyphicon glyphicon-link"></span>
+						<a href="http://thesecretlab.nl" target="_blank">http://thesecretlab.nl</a>
+					</span>
+
+
+				</span>
+			</p>
+		</div>
+	</div>
+
+
+</div>
+
+		</div>
+
+		<div class="background-white">
+			<div id="abilities" class="container">
+				<h2>Abilities</h2>
+
+<hr />
+
+<h3>Skills</h3>
+
+<div class="row">
+
+
+	<div class="col-md-6">
+		<ul class="no-bullets">
+			<li>
+				<span class="ability-title">Ruby</span>
+				<span class="ability-score">
+
+
+					<span class="glyphicon glyphicon-star filled"></span>
+
+
+					<span class="glyphicon glyphicon-star filled"></span>
+
+
+					<span class="glyphicon glyphicon-star filled"></span>
+
+
+					<span class="glyphicon glyphicon-star filled"></span>
+
+
+					<span class="glyphicon glyphicon-star filled"></span>
+
+
+				</span>
+			</li>
+
+
+
+			<li>
+				<span class="ability-title">Scala</span>
+				<span class="ability-score">
+
+
+					<span class="glyphicon glyphicon-star filled"></span>
+
+
+					<span class="glyphicon glyphicon-star filled"></span>
+
+
+					<span class="glyphicon glyphicon-star filled"></span>
+
+
+					<span class="glyphicon glyphicon-star filled"></span>
+
+
+					<span class="glyphicon glyphicon-star filled"></span>
+
+
+				</span>
+			</li>
+
+
+
+			<li>
+				<span class="ability-title">Python</span>
+				<span class="ability-score">
+
+
+					<span class="glyphicon glyphicon-star filled"></span>
+
+
+					<span class="glyphicon glyphicon-star filled"></span>
+
+
+					<span class="glyphicon glyphicon-star filled"></span>
+
+
+					<span class="glyphicon glyphicon-star filled"></span>
+
+
+					<span class="glyphicon glyphicon-star filled"></span>
+
+
+				</span>
+			</li>
+
+
+
+			<li>
+				<span class="ability-title">Machine Learning</span>
+				<span class="ability-score">
+
+
+					<span class="glyphicon glyphicon-star filled"></span>
+
+
+					<span class="glyphicon glyphicon-star filled"></span>
+
+
+					<span class="glyphicon glyphicon-star filled"></span>
+
+
+					<span class="glyphicon glyphicon-star filled"></span>
+
+
+					<span class="glyphicon glyphicon-star filled"></span>
+
+
+				</span>
+			</li>
+
+
+
+			<li>
+				<span class="ability-title">Apache Spark</span>
+				<span class="ability-score">
+
+
+					<span class="glyphicon glyphicon-star filled"></span>
+
+
+					<span class="glyphicon glyphicon-star filled"></span>
+
+
+					<span class="glyphicon glyphicon-star filled"></span>
+
+
+					<span class="glyphicon glyphicon-star filled"></span>
+
+
+					<span class="glyphicon glyphicon-star filled"></span>
+
+
+				</span>
+			</li>
+
+
+
+			<li>
+				<span class="ability-title">AWS - (EC2/ELB/S3/DynamoDB/Glue/Lambda/EMR/Networking)</span>
+				<span class="ability-score">
+
+
+					<span class="glyphicon glyphicon-star filled"></span>
+
+
+					<span class="glyphicon glyphicon-star filled"></span>
+
+
+					<span class="glyphicon glyphicon-star filled"></span>
+
+
+					<span class="glyphicon glyphicon-star filled"></span>
+
+
+					<span class="glyphicon glyphicon-star filled"></span>
+
+
+				</span>
+			</li>
+
+
+
+			<li>
+				<span class="ability-title">Airflow</span>
+				<span class="ability-score">
+
+
+					<span class="glyphicon glyphicon-star filled"></span>
+
+
+					<span class="glyphicon glyphicon-star filled"></span>
+
+
+					<span class="glyphicon glyphicon-star filled"></span>
+
+
+					<span class="glyphicon glyphicon-star filled"></span>
+
+
+					<span class="glyphicon glyphicon-star filled"></span>
+
+
+				</span>
+			</li>
+
+
+
+			<li>
+				<span class="ability-title">Mathematical Algorithms/Data Analysis</span>
+				<span class="ability-score">
+
+
+					<span class="glyphicon glyphicon-star filled"></span>
+
+
+					<span class="glyphicon glyphicon-star filled"></span>
+
+
+					<span class="glyphicon glyphicon-star filled"></span>
+
+
+					<span class="glyphicon glyphicon-star filled"></span>
+
+
+					<span class="glyphicon glyphicon-star "></span>
+
+
+				</span>
+			</li>
+
+
+
+			<li>
+				<span class="ability-title">ElasticSearch</span>
+				<span class="ability-score">
+
+
+					<span class="glyphicon glyphicon-star filled"></span>
+
+
+					<span class="glyphicon glyphicon-star filled"></span>
+
+
+					<span class="glyphicon glyphicon-star filled"></span>
+
+
+					<span class="glyphicon glyphicon-star filled"></span>
+
+
+					<span class="glyphicon glyphicon-star "></span>
+
+
+				</span>
+			</li>
+
+
+
+			<li>
+				<span class="ability-title">unix/linux/bash</span>
+				<span class="ability-score">
+
+
+					<span class="glyphicon glyphicon-star filled"></span>
+
+
+					<span class="glyphicon glyphicon-star filled"></span>
+
+
+					<span class="glyphicon glyphicon-star filled"></span>
+
+
+					<span class="glyphicon glyphicon-star filled"></span>
+
+
+					<span class="glyphicon glyphicon-star "></span>
+
+
+				</span>
+			</li>
+
+
+
+			<li>
+				<span class="ability-title">Data Pipelines</span>
+				<span class="ability-score">
+
+
+					<span class="glyphicon glyphicon-star filled"></span>
+
+
+					<span class="glyphicon glyphicon-star filled"></span>
+
+
+					<span class="glyphicon glyphicon-star filled"></span>
+
+
+					<span class="glyphicon glyphicon-star filled"></span>
+
+
+					<span class="glyphicon glyphicon-star "></span>
+
+
+				</span>
+			</li>
+
+
+
+			<li>
+				<span class="ability-title">Docker</span>
+				<span class="ability-score">
+
+
+					<span class="glyphicon glyphicon-star filled"></span>
+
+
+					<span class="glyphicon glyphicon-star filled"></span>
+
+
+					<span class="glyphicon glyphicon-star filled"></span>
+
+
+					<span class="glyphicon glyphicon-star filled"></span>
+
+
+					<span class="glyphicon glyphicon-star "></span>
+
+
+				</span>
+			</li>
+
+
+
+			<li>
+				<span class="ability-title">Serverless</span>
+				<span class="ability-score">
+
+
+					<span class="glyphicon glyphicon-star filled"></span>
+
+
+					<span class="glyphicon glyphicon-star filled"></span>
+
+
+					<span class="glyphicon glyphicon-star filled"></span>
+
+
+					<span class="glyphicon glyphicon-star filled"></span>
+
+
+					<span class="glyphicon glyphicon-star "></span>
+
+
+				</span>
+			</li>
+
+
+
+			<li>
+				<span class="ability-title">Mathematics/Physics</span>
+				<span class="ability-score">
+
+
+					<span class="glyphicon glyphicon-star filled"></span>
+
+
+					<span class="glyphicon glyphicon-star filled"></span>
+
+
+					<span class="glyphicon glyphicon-star filled"></span>
+
+
+					<span class="glyphicon glyphicon-star filled"></span>
+
+
+					<span class="glyphicon glyphicon-star "></span>
+
+
+				</span>
+			</li>
+
+			<li>
+				<span class="ability-title">Agile Development</span>
+				<span class="ability-score">
+
+
+					<span class="glyphicon glyphicon-star filled"></span>
+
+
+					<span class="glyphicon glyphicon-star filled"></span>
+
+
+					<span class="glyphicon glyphicon-star filled"></span>
+
+
+					<span class="glyphicon glyphicon-star filled"></span>
+
+
+					<span class="glyphicon glyphicon-star "></span>
+
+
+				</span>
+			</li>
+
+			<li>
+				<span class="ability-title">SQL</span>
+				<span class="ability-score">
+
+
+					<span class="glyphicon glyphicon-star filled"></span>
+
+
+					<span class="glyphicon glyphicon-star filled"></span>
+
+
+					<span class="glyphicon glyphicon-star filled"></span>
+
+
+					<span class="glyphicon glyphicon-star "></span>
+
+
+					<span class="glyphicon glyphicon-star "></span>
+
+
+				</span>
+			</li>
+
+
+
+			<li>
+				<span class="ability-title">Jenkins</span>
+				<span class="ability-score">
+
+					<span class="glyphicon glyphicon-star filled"></span>
+
+					<span class="glyphicon glyphicon-star filled"></span>
+
+					<span class="glyphicon glyphicon-star "></span>
+
+					<span class="glyphicon glyphicon-star "></span>
+
+					<span class="glyphicon glyphicon-star "></span>
+
+				</span>
+			</li>
+
+
+
+			<li>
+				<span class="ability-title">Kubernetes</span>
+				<span class="ability-score">
+
+					<span class="glyphicon glyphicon-star filled"></span>
+
+					<span class="glyphicon glyphicon-star filled"></span>
+
+					<span class="glyphicon glyphicon-star "></span>
+
+					<span class="glyphicon glyphicon-star "></span>
+
+					<span class="glyphicon glyphicon-star "></span>
+
+
+				</span>
+			</li>
+
+
+
+			<li>
+				<span class="ability-title">Neo4j</span>
+				<span class="ability-score">
+
+					<span class="glyphicon glyphicon-star filled"></span>
+
+					<span class="glyphicon glyphicon-star "></span>
+
+					<span class="glyphicon glyphicon-star "></span>
+
+					<span class="glyphicon glyphicon-star "></span>
+
+					<span class="glyphicon glyphicon-star "></span>
+
+
+				</span>
+			</li>
+		</ul>
+	</div>
+
+
+</div>
+
+<hr />
+
+<h3>Languages</h3>
+
+<div class="row">
+
+
+	<div class="col-md-6">
+		<ul class="no-bullets">
+
+
+			<li>
+				<span class="ability-title">English (Mother tongue)</span>
+				<span class="ability-score">
+
+
+					<span class="glyphicon glyphicon-star filled"></span>
+
+
+					<span class="glyphicon glyphicon-star filled"></span>
+
+
+					<span class="glyphicon glyphicon-star filled"></span>
+
+
+					<span class="glyphicon glyphicon-star filled"></span>
+
+
+					<span class="glyphicon glyphicon-star filled"></span>
+
+
+				</span>
+			</li>
+
+
+
+			<li>
+				<span class="ability-title">German (Basic)</span>
+				<span class="ability-score">
+
+
+					<span class="glyphicon glyphicon-star filled"></span>
+
+
+					<span class="glyphicon glyphicon-star filled"></span>
+
+
+					<span class="glyphicon glyphicon-star "></span>
+
+
+					<span class="glyphicon glyphicon-star "></span>
+
+
+					<span class="glyphicon glyphicon-star "></span>
+
+
+				</span>
+			</li>
+
+
+			<li>
+				<span class="ability-title">Japanese (Basic)</span>
+				<span class="ability-score">
+
+
+					<span class="glyphicon glyphicon-star filled"></span>
+
+
+					<span class="glyphicon glyphicon-star "></span>
+
+
+					<span class="glyphicon glyphicon-star "></span>
+
+
+					<span class="glyphicon glyphicon-star "></span>
+
+
+					<span class="glyphicon glyphicon-star "></span>
+
+
+				</span>
+			</li>
+		</ul>
+	</div>
+
+
+</div>
+
+<hr />
+
+		<div class="background-gray">
+			<div id="contact" class="container">
+				<h2>Contact</h2>
+
+<hr />
+
+<div class="row">
+	<div class="col-md-6">
+		<ul class="no-bullets">
+			<li>
+				<a href="https://www.linkedin.com/in/sam-crouch-41a33864/" target="_blank">
+					<span class="icon icon-linkedin"></span>
+					Linkedin
+				</a>
+			</li>
+		</ul>
+	</div>
+	<div class="col-md-6">
+		<ul class="no-bullets">
+			<li>
+				<a href="mailto:sam.crouch6@gmail.com">
+					<span class="icon icon-email"></span>
+						email
+				</a>
+			</li>
+		</ul>
+	</div>
+</div>
+
+<hr />
+	</body>
 </html>
