@@ -6,6 +6,7 @@ h1,h4 { font-weight: 700; margin-bottom: 10px; }
 h2,h3 { font-weight: 300; color: #22A39F; }
 h2 { font-size: 54px; text-align: center; }
 h3 { font-size: 28px; }
+p { font-size: 20px; }
 
 p.lead { text-align: center; color: #727878; }
 p.lead a { color: #FFFFFF; text-decoration: underline; }
@@ -26,7 +27,7 @@ hr { margin: 40px 0px; border-color: #727878; opacity: 0.2; filter:alpha(opacity
 .icon.icon-email { background-position: 0px -96px; }
 
 .jumbotron {
-	background: no-repeat center right fixed url(/images/background.jpg);
+	background: no-repeat center right fixed url(/images/cool_background.gif);
 
 	-webkit-background-size: 100%;
     -moz-background-size: 100%;
@@ -38,8 +39,8 @@ hr { margin: 40px 0px; border-color: #727878; opacity: 0.2; filter:alpha(opacity
 	-o-background-size: cover;
 	background-size: cover;
 
-	-ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/images/background.jpg', sizingMethod='scale')";
-	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/images/background.jpg', sizingMethod='scale');
+	-ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/images/cool_background.gif', sizingMethod='scale')";
+	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/images/cool_background.gif');
 
 	margin-bottom: 0px;
 	padding: 0px;
@@ -53,14 +54,14 @@ hr { margin: 40px 0px; border-color: #727878; opacity: 0.2; filter:alpha(opacity
 	right: 30px;
 	top: 30px;
 }*/
-.jumbotron .overlay { background-color: #22A39F; position: absolute; top: 0px; bottom: 0px; left: 0px; right: 0px; opacity: 0.25; z-index: 1; }
+.jumbotron .overlay { background-color: #22A39F; position: absolute; top: 0px; bottom: 0px; left: 0px; right: 0px; opacity: 0.95; filter:alpha(opacity=95); z-index: 2; }
 
 .jumbotron .container { position: relative; top: 28%; z-index: 4; text-align: center; }
-.jumbotron .container > * { text-align: center; color: #FFFFFF; }
-.jumbotron .container h1 { padding-bottom: 20px; border-bottom: 1px solid #FFFFFF; border-bottom-color: rgba(255,255,255,0.35); display: inline-block; }
+.jumbotron .container > * { text-align: center; color: #ff8325; }
+.jumbotron .container h1 { padding-bottom: 20px; border-bottom-color: rgba(255,255,255,0.35); display: inline-block; }
 .jumbotron .container .lead { font-size: 28px; }
 .jumbotron .scroll-down { height: 80px; width: 110px; display: block; position: absolute; bottom: 0px; right: 5%; background-color: #222222; text-align: center; z-index: 6; }
-.jumbotron .scroll-down .glyphicon {
+.jumbotron .scroll-down .star {
 	color: #FFFFFF;
 	font-size: 30px;
 	padding-right: 2px;
@@ -72,7 +73,7 @@ hr { margin: 40px 0px; border-color: #727878; opacity: 0.2; filter:alpha(opacity
 	animation-iteration-count: infinite;
 	animation-direction: normal;
 }
-.jumbotron .scroll-down:hover .glyphicon { padding-top: 25px; }
+.jumbotron .scroll-down:hover .star { padding-top: 25px; }
 
 .navbar  { border: 0px; background-color: #222222; position: absolute; top: 100%; right: 5%; width: 110px; z-index: 999; }
 .navbar .navbar-collapse { padding: 0px; max-height: none; }
@@ -104,7 +105,7 @@ hr { margin: 40px 0px; border-color: #727878; opacity: 0.2; filter:alpha(opacity
 #abilities ul > li:hover { background: #F2F2F2; }
 #abilities ul > li .ability-title { display: inline-block; width: 60%; }
 #abilities ul > li .ability-score { float: right; }
-#abilities ul > li .ability-score .glyphicon {
+#abilities ul > li .ability-score .star {
 	color: #DFE0E0;
 	font-size: 14px;
 
@@ -113,9 +114,9 @@ hr { margin: 40px 0px; border-color: #727878; opacity: 0.2; filter:alpha(opacity
     -o-transition: all 0.3s;
     transition: all 0.3s;
 }
-#abilities ul > li .ability-score .glyphicon.filled { color: #22A39F; }
+#abilities ul > li .ability-score .star.filled { color: #ff9624; }
 
-#abilities ul > li:hover .ability-score .glyphicon { margin-left: 2px; }
+#abilities ul > li:hover .ability-score .star { margin-left: 2px; }
 
 #interests .left { float: left; }
 #interests .right { float: right; }
@@ -343,4 +344,44 @@ figure.effect:hover p {
 	opacity: 1;
 	-webkit-transform: translate3d(0,0,0);
 	transform: translate3d(0,0,0);
+}
+html {
+  text-align: center;
+}
+	.btn-linkedin {
+	  background: #0E76A8;
+	  border-radius: 0;
+	  color: #fff;
+	  border-width: 1px;
+	  border-style: solid;
+	  border-color: #084461;
+	}
+	.btn-linkedin:link, .btn-linkedin:visited {
+	  color: #fff;
+	}
+	.btn-linkedin:active, .btn-linkedin:hover {
+	  background: #084461;
+	  color: #fff;
+	}
+	.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+	}
+	.profile-image{
+    border-radius: 25px;
+    padding: 20px;
+    width: 200px;
+    height: 150px;
+	}
+	.col-md-6 {
+	    width: 45%;
+	}
+
+h1{
+   margin:0;
+   padding:0;
 }
