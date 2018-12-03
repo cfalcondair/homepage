@@ -1,9 +1,9 @@
 html, body { color: #434242; font-family: 'Open Sans', sans-serif !important; height: 100%; }
-body { background: #F3EFE0; font-size: 15px; line-height: 1.64; }
+body { background: #000000; font-size: 15px; line-height: 1.64; }
 
 h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6, strong, b { font-family: 'Open Sans', sans-serif !important; margin-bottom: 20px; }
 h1,h4 { font-weight: 700; margin-bottom: 10px; }
-h2,h3 { font-weight: 300; color: #22A39F; }
+h2,h3 { font-weight: 300; color: #4bff64; }
 h2 { font-size: 54px; text-align: center; }
 h3 { font-size: 28px; }
 p { font-size: 20px; }
@@ -101,12 +101,12 @@ hr { margin: 40px 0px; border-color: #727878; opacity: 0.2; filter:alpha(opacity
 #experiences .experience .experience-details * { color: #22A39F; }
 #experiences .experience .experience-details .seperator { color: #BCBCBC; }
 
-#abilities ul > li { min-height: 30px; padding: 3px 0px; }
-#abilities ul > li:hover { background: #F2F2F2; }
-#abilities ul > li .ability-title { display: inline-block; width: 60%; }
+#abilities ul > li { transition: all 0.3s; min-height: 30px; padding: 3px 0px; background: #000000; opacity: 1; }
+#abilities ul > li:hover { background: #001908; }
+#abilities ul > li .ability-title {display: inline-block; width: 60%; color: #ffffff; }
 #abilities ul > li .ability-score { float: right; }
 #abilities ul > li .ability-score .star {
-	color: #DFE0E0;
+	color: #000000;
 	font-size: 14px;
 
 	-webkit-transition: all 0.3s;
@@ -114,7 +114,7 @@ hr { margin: 40px 0px; border-color: #727878; opacity: 0.2; filter:alpha(opacity
     -o-transition: all 0.3s;
     transition: all 0.3s;
 }
-#abilities ul > li .ability-score .star.filled { color: #ff9624; }
+#abilities ul > li .ability-score .star.filled { color: #4bff64; }
 
 #abilities ul > li:hover .ability-score .star { margin-left: 2px; }
 
@@ -384,4 +384,18 @@ html {
 h1{
    margin:0;
    padding:0;
+}
+
+.ability-logo{
+  z-index: 2;
+  right: 40%;
+  opacity: 0.8;
+  position: absolute;
+  filter: alpha(opacity=10);
+	transition: 0.8s ease;
+}
+
+.ability-logo:hover{
+  opacity: 1;
+  filter: alpha(opacity=80);
 }
